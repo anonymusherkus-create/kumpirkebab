@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="lt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- EDIT ME: page title and description ----------------------------- -->
+    <title>Kumpir Kebab — Naujininkai, Vilnius</title>
+    <meta
+      name="description"
+      content="Kumpir Kebab — legendinis kebabas ir ugninis kumpir Naujininkuose, Vilniuje. Užsakymai telefonu."
+    />
+    <meta property="og:title" content="Kumpir Kebab — Naujininkai, Vilnius" />
+    <meta
+      property="og:description"
+      content="Karšti kebabai lavaše ir ugninis kumpir. Užsakymai telefonu +370 606 47320."
+    />
+    <meta property="og:type" content="restaurant" />
+    <meta name="twitter:card" content="summary" />
+    <!-- ----------------------------------------------------------------- -->
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="theme-color" content="#0a0908" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Pereiti prie turinio</a>
+
+    <header class="nav" id="nav">
+      <div class="container nav__inner">
+        <a class="brand" href="#top" aria-label="Kumpir Kebab — į pradžią">
+          <img src="favicon.svg" alt="" width="36" height="36" />
+          <span class="brand__name">KUMPIR <span class="flame">KEBAB</span></span>
+        </a>
+
+        <nav class="nav__links" aria-label="Pagrindinė navigacija">
+          <a href="#valgiarastis">Valgiaraštis</a>
+          <a href="#atsiliepimai">Atsiliepimai</a>
+          <a href="#kontaktai">Kontaktai</a>
+        </nav>
+
+        <div class="nav__actions">
+          <span class="status-pill" data-status hidden>
+            <span class="status-dot" aria-hidden="true"></span>
+            <span data-status-text></span>
+          </span>
+          <a class="btn btn--primary btn--sm nav__call" href="tel:+37060647320">
+            <svg class="icon" aria-hidden="true"><use href="#icon-phone" /></svg>
+            Skambinti: +370 606 47320
+          </a>
+          <button
+            type="button"
+            class="nav__toggle"
+            id="nav-toggle"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            hidden
+          >
+            <svg class="icon icon--open" aria-hidden="true"><use href="#icon-menu" /></svg>
+            <svg class="icon icon--close" aria-hidden="true"><use href="#icon-x" /></svg>
+            <span class="sr-only">Meniu</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <a href="#valgiarastis">Valgiaraštis</a>
+        <a href="#atsiliepimai">Atsiliepimai</a>
+        <a href="#kontaktai">Kontaktai</a>
+        <a class="btn btn--primary" href="tel:+37060647320">
+          <svg class="icon" aria-hidden="true"><use href="#icon-phone" /></svg>
+          +370 606 47320
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero ------------------------------------------------------------ -->
+      <section class="hero" id="top">
+        <div class="glow glow--hero-a" aria-hidden="true"></div>
+        <div class="glow glow--hero-b" aria-hidden="true"></div>
+        <img class="hero__mark" src="assets/flame.svg" alt="" width="460" height="460" />
+
+        <div class="container hero__content">
+          <p class="eyebrow">Kumpir Kebab — Naujininkai, Vilnius</p>
+          <h1 class="hero__title">
+            <span class="line"><span>TIKRAS</span></span>
+            <span class="line"><span class="text-stroke">NAUJININKŲ</span></span>
+            <span class="line"><span class="text-gradient">SKONIS.</span></span>
+          </h1>
+          <p class="hero__lead">
+            Karšti kebabai lavaše ir ugninis kumpir — nuo vertikalios ugnies tiesiai į tavo
+            rankas. Išsinešimui ar vietoje.
+          </p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary btn--lg" href="tel:+37060647320">
+              <svg class="icon" aria-hidden="true"><use href="#icon-phone" /></svg>
+              Skambinti ir užsakyti
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#valgiarastis">Peržiūrėti valgiaraštį</a>
+          </div>
+          <ul class="hero__badges">
+            <li class="badge badge--flame">
+              <span class="stars" aria-hidden="true">
+                <svg class="icon icon--solid"><use href="#icon-star" /></svg>
+                <svg class="icon icon--solid"><use href="#icon-star" /></svg>
+                <svg class="icon icon--solid"><use href="#icon-star" /></svg>
+                <svg class="icon icon--solid"><use href="#icon-star" /></svg>
+              </span>
+              4,3 — mėgstamiausi Naujininkuose
+            </li>
+            <li class="badge">Traški lavašo pluta</li>
+            <li class="badge">Tikra ugnis</li>
+            <li class="badge">Namų padažai</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Marquee --------------------------------------------------------- -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>LEGENDINIS KUMPIRAS</span><span class="marquee__star">✺</span>
+          <span>SULTINGI KEBABAI LAVAŠE</span><span class="marquee__star">✺</span>
+          <span>TIKRA UGNIS</span><span class="marquee__star">✺</span>
+          <span>ŠVIEŽI INGREDIENTAI KIEKVIENĄ DIENĄ</span><span class="marquee__star">✺</span>
+          <span>NAUJININKAI, VILNIUS</span><span class="marquee__star">✺</span>
+          <span>LEGENDINIS KUMPIRAS</span><span class="marquee__star">✺</span>
+          <span>SULTINGI KEBABAI LAVAŠE</span><span class="marquee__star">✺</span>
+          <span>TIKRA UGNIS</span><span class="marquee__star">✺</span>
+          <span>ŠVIEŽI INGREDIENTAI KIEKVIENĄ DIENĄ</span><span class="marquee__star">✺</span>
+          <span>NAUJININKAI, VILNIUS</span><span class="marquee__star">✺</span>
+        </div>
+      </div>
+
+      <!-- Menu ------------------------------------------------------------ -->
+      <section class="section" id="valgiarastis" aria-labelledby="menu-heading">
+        <div class="container">
+          <div class="section__head reveal">
+            <div>
+              <p class="eyebrow">Valgiaraštis</p>
+              <h2 class="section__title" id="menu-heading">
+                Pasirink savo <span class="flame">skonį</span>
+              </h2>
+            </div>
+            <p class="section__lead">
+              Kainos eurais. Užsakymai priimami telefonu — paruošime per 10 minučių.
+            </p>
+          </div>
+
+          <div class="filters" id="menu-filters" role="group" aria-label="Kategorijos" hidden>
+            <button type="button" class="chip" data-filter="Visi" aria-pressed="true">Visi</button>
+            <button type="button" class="chip" data-filter="Kompleksai" aria-pressed="false">Kompleksai</button>
+            <button type="button" class="chip" data-filter="Kebabai" aria-pressed="false">Kebabai</button>
+            <button type="button" class="chip" data-filter="Bulvytės ir koldūnai" aria-pressed="false">Bulvytės ir koldūnai</button>
+            <button type="button" class="chip" data-filter="Papildai" aria-pressed="false">Papildai</button>
+            <button type="button" class="chip" data-filter="Gėrimai" aria-pressed="false">Gėrimai</button>
+          </div>
+
+          <!-- EDIT ME: menu items. Copy a whole <li> block to add a dish;
+               data-category must match one of the filter buttons above. -->
+          <ul class="menu" id="menu">
+            <li class="menu__item" data-category="Kompleksai">
+              <div class="menu__row">
+                <h3 class="menu__name">Didelis kompleksas</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€11.00</span>
+              </div>
+              <p class="menu__desc">Kebabas lavaše + bulvytės + gėrimas</p>
+              <p class="menu__tags">
+                <span class="tag tag--amber"><svg class="icon icon--solid" aria-hidden="true"><use href="#icon-star" /></svg> Mėgstamiausias</span>
+              </p>
+            </li>
+            <li class="menu__item" data-category="Kebabai">
+              <div class="menu__row">
+                <h3 class="menu__name">Kebabas lėkštėje</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€8.00</span>
+              </div>
+              <p class="menu__desc">Pasirinkite jautieną arba vištieną</p>
+              <p class="menu__tags">
+                <span class="tag tag--amber"><svg class="icon icon--solid" aria-hidden="true"><use href="#icon-star" /></svg> Mėgstamiausias</span>
+              </p>
+            </li>
+            <li class="menu__item" data-category="Kebabai">
+              <div class="menu__row">
+                <h3 class="menu__name">Didelis kebabas</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€7.00</span>
+              </div>
+              <p class="menu__desc">Pasirinkite jautieną arba vištieną</p>
+            </li>
+            <li class="menu__item" data-category="Kebabai">
+              <div class="menu__row">
+                <h3 class="menu__name">Mažas kebabas</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€6.00</span>
+              </div>
+              <p class="menu__desc">Pasirinkite jautieną arba vištieną</p>
+            </li>
+            <li class="menu__item" data-category="Bulvytės ir koldūnai">
+              <div class="menu__row">
+                <h3 class="menu__name">Skrudintos bulvytės</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€3.50</span>
+              </div>
+              <p class="menu__tags">
+                <span class="tag tag--green"><svg class="icon" aria-hidden="true"><use href="#icon-leaf" /></svg> Vegetariškas</span>
+              </p>
+            </li>
+            <li class="menu__item" data-category="Bulvytės ir koldūnai">
+              <div class="menu__row">
+                <h3 class="menu__name">Bulvytės su mėsa</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€7.00</span>
+              </div>
+              <p class="menu__desc">Su jautiena arba vištiena</p>
+            </li>
+            <li class="menu__item" data-category="Bulvytės ir koldūnai">
+              <div class="menu__row">
+                <h3 class="menu__name">Gruzdinti koldūnai</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€5.00</span>
+              </div>
+            </li>
+            <li class="menu__item" data-category="Papildai">
+              <div class="menu__row">
+                <h3 class="menu__name">Mėsa (papildas)</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€2.00</span>
+              </div>
+              <p class="menu__desc">Pasirinkite jautieną arba vištieną</p>
+            </li>
+            <li class="menu__item" data-category="Papildai">
+              <div class="menu__row">
+                <h3 class="menu__name">Padažas</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€1.00</span>
+              </div>
+              <p class="menu__desc">Česnakinis, pikantiškas arba aštrus</p>
+              <p class="menu__tags">
+                <span class="tag tag--flame"><svg class="icon" aria-hidden="true"><use href="#icon-flame" /></svg> Aštru</span>
+              </p>
+            </li>
+            <li class="menu__item" data-category="Papildai">
+              <div class="menu__row">
+                <h3 class="menu__name">Papildomas lydytas sūris</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€1.50</span>
+              </div>
+              <p class="menu__tags">
+                <span class="tag tag--green"><svg class="icon" aria-hidden="true"><use href="#icon-leaf" /></svg> Vegetariškas</span>
+              </p>
+            </li>
+            <li class="menu__item" data-category="Gėrimai">
+              <div class="menu__row">
+                <h3 class="menu__name">Gėrimai 0.33 l</h3>
+                <span class="menu__leader" aria-hidden="true"></span>
+                <span class="menu__price">€1.80</span>
+              </div>
+              <p class="menu__desc">Pepsi, Cola, Fanta, Sprite, 7up, Mirinda</p>
+            </li>
+          </ul>
+          <!-- ------------------------------------------------------------- -->
+        </div>
+      </section>
+
+      <!-- Reviews --------------------------------------------------------- -->
+      <section class="section section--coals" id="atsiliepimai" aria-labelledby="reviews-heading">
+        <div class="container">
+          <div class="section__head reveal">
+            <div>
+              <p class="eyebrow">Atsiliepimai</p>
+              <h2 class="section__title" id="reviews-heading">
+                Ką sako <span class="flame">Naujininkai</span>
+              </h2>
+            </div>
+            <div class="score">
+              <span class="score__value">4,3</span>
+              <div>
+                <span class="rating" style="--rating: 86%" role="img" aria-label="4,3 iš 5 žvaigždučių">
+                  <span class="rating__base" aria-hidden="true">★★★★★</span>
+                  <span class="rating__fill" aria-hidden="true">★★★★★</span>
+                </span>
+                <p class="score__note">iš 5 — 595 atsiliepimai „Google Maps“</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- EDIT ME: reviews, copied from the shop's Google Maps listing. -->
+          <ul class="reviews">
+            <li class="review reveal">
+              <div class="review__top">
+                <span class="rating" style="--rating: 100%" role="img" aria-label="5 iš 5 žvaigždučių">
+                  <span class="rating__base" aria-hidden="true">★★★★★</span>
+                  <span class="rating__fill" aria-hidden="true">★★★★★</span>
+                </span>
+                <span class="review__quote" aria-hidden="true">“</span>
+              </div>
+              <blockquote class="review__text" lang="en">
+                Superb place! Well made kebab, good meat, neat service.
+              </blockquote>
+              <p class="review__author">
+                <span class="avatar" aria-hidden="true">M</span>
+                <span><strong>Märt Ojamaa</strong><span class="review__date">Google Maps</span></span>
+              </p>
+            </li>
+            <li class="review reveal">
+              <p class="review__text">
+                Daugiau nei 590 klientų įvertino mus „Google Maps“ — 432 iš jų skyrė penkias žvaigždutes.
+              </p>
+              <a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&amp;query=Kumpir%20kebab%20shop%2C%20Kaps%C5%B3%20g.%2022%2C%20Vilnius">Skaityti visus atsiliepimus „Google“</a>
+            </li>
+          </ul>
+          <!-- ------------------------------------------------------------- -->
+        </div>
+      </section>
+
+      <!-- Contact --------------------------------------------------------- -->
+      <section class="section" id="kontaktai" aria-labelledby="contact-heading">
+        <div class="container contact">
+          <div class="reveal">
+            <p class="eyebrow">Kontaktai</p>
+            <h2 class="section__title" id="contact-heading">
+              Užsakymai — <span class="flame">tik telefonu</span>
+            </h2>
+            <p class="section__lead contact__lead">
+              Paskambink, įvardyk užsakymą — ir po kelių minučių karštas kebabas jau lauks tavo
+              Naujininkuose. Išsinešimui ar vietoje.
+            </p>
+
+            <!-- EDIT ME: phone, address, and hours ---------------------- -->
+            <a class="call-card" href="tel:+37060647320">
+              <span class="call-card__icon"><svg class="icon" aria-hidden="true"><use href="#icon-phone" /></svg></span>
+              <span>
+                <span class="call-card__label">Skambinti dabar</span>
+                <span class="call-card__number">+370 606 47320</span>
+              </span>
+            </a>
+
+            <div class="address">
+              <svg class="icon address__icon" aria-hidden="true"><use href="#icon-pin" /></svg>
+              <div>
+                <p class="address__line">Kapsų g. 22, Naujininkai, Vilnius</p>
+                <a
+                  class="address__link"
+                  href="https://www.google.com/maps/search/?api=1&amp;query=Kaps%C5%B3%20g.%2022%2C%20Vilnius"
+                >
+                  <svg class="icon" aria-hidden="true"><use href="#icon-nav" /></svg>
+                  Rodyti maršrutą
+                </a>
+              </div>
+            </div>
+
+            <dl class="hours">
+              <div><dt>Pirmadienis</dt><dd>10:30 — 21:00</dd></div>
+              <div><dt>Antradienis</dt><dd>10:30 — 21:00</dd></div>
+              <div><dt>Trečiadienis</dt><dd>10:30 — 21:00</dd></div>
+              <div><dt>Ketvirtadienis</dt><dd>10:30 — 21:00</dd></div>
+              <div><dt>Penktadienis</dt><dd>10:30 — 21:00</dd></div>
+              <div><dt>Šeštadienis</dt><dd>10:30 — 21:00</dd></div>
+              <div><dt>Sekmadienis</dt><dd>10:30 — 21:00</dd></div>
+            </dl>
+            <!-- --------------------------------------------------------- -->
+            <p class="hours__status" data-status hidden>
+              ● <span data-status-long></span>
+            </p>
+          </div>
+
+          <a
+            class="map-card reveal"
+            href="https://www.google.com/maps/search/?api=1&amp;query=Kaps%C5%B3%20g.%2022%2C%20Vilnius"
+          >
+            <span class="map-card__grid" aria-hidden="true"></span>
+            <span class="map-card__pin" aria-hidden="true">
+              <svg class="icon"><use href="#icon-pin" /></svg>
+            </span>
+            <span class="map-card__label">
+              <span class="map-card__street">Kapsų g. 22</span>
+              <span class="map-card__area">Naujininkai, Vilnius</span>
+              <span class="map-card__cta">Atidaryti žemėlapį →</span>
+            </span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="glow glow--footer" aria-hidden="true"></div>
+      <div class="container footer__inner">
+        <div class="footer__cta reveal">
+          <p class="eyebrow">Alkana? Tai lengviausia išspręsta</p>
+          <a class="btn btn--primary btn--xl" href="tel:+37060647320">
+            <svg class="icon" aria-hidden="true"><use href="#icon-phone" /></svg>
+            +370 606 47320
+          </a>
+        </div>
+
+        <div class="footer__bar">
+          <a class="brand" href="#top">
+            <img src="favicon.svg" alt="" width="32" height="32" />
+            <span class="brand__name">KUMPIR <span class="flame">KEBAB</span></span>
+          </a>
+          <nav class="footer__links" aria-label="Poraštės navigacija">
+            <a href="#valgiarastis">Valgiaraštis</a>
+            <a href="#atsiliepimai">Atsiliepimai</a>
+            <a href="#kontaktai">Kontaktai</a>
+          </nav>
+        </div>
+        <p class="footer__copy">© <span id="year">2026</span> Kumpir Kebab — Kapsų g. 22, Naujininkai, Vilnius</p>
+      </div>
+    </footer>
+
+    <a class="floating-call" href="tel:+37060647320">
+      <svg class="icon" aria-hidden="true"><use href="#icon-phone" /></svg>
+      <span class="sr-only">Skambinti užsakyti</span>
+    </a>
+
+    <script src="script.js"></script>
+
+    <!-- Icon sprite. Referenced above with <use href="#icon-name" />.
+         Outline icons are drawn with the current text color. -->
+    <svg class="sprite" aria-hidden="true" focusable="false">
+      <defs>
+        <symbol id="icon-phone" viewBox="0 0 24 24">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z" />
+        </symbol>
+        <symbol id="icon-menu" viewBox="0 0 24 24">
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </symbol>
+        <symbol id="icon-x" viewBox="0 0 24 24">
+          <path d="M18 6 6 18M6 6l12 12" />
+        </symbol>
+        <symbol id="icon-star" viewBox="0 0 24 24">
+          <path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2Z" />
+        </symbol>
+        <symbol id="icon-leaf" viewBox="0 0 24 24">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+        </symbol>
+        <symbol id="icon-flame" viewBox="0 0 24 24">
+          <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5Z" />
+        </symbol>
+        <symbol id="icon-pin" viewBox="0 0 24 24">
+          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+          <circle cx="12" cy="10" r="3" />
+        </symbol>
+        <symbol id="icon-nav" viewBox="0 0 24 24">
+          <path d="m3 11 19-9-9 19-2-8-8-2Z" />
+        </symbol>
+      </defs>
+    </svg>
+  </body>
+</html>
